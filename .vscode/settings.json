@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/084d87e1-ae4a-4a3e-9a27-aec21e32b488/appservices/subscriptions/084d87e1-ae4a-4a3e-9a27-aec21e32b488/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/nestjs-docker",
+  "appService.deploySubpath": "."
+}
