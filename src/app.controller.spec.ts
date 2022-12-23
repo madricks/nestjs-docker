@@ -15,8 +15,10 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hilli Wirld!"', () => {
-      expect(appController.getHello()).toBe('Hilli Wirld!');
+    it('Testing merge request from local!"', () => {
+      expect(appController.getHello()).toBe(
+        'Testing merge request from local!',
+      );
     });
   });
 });
