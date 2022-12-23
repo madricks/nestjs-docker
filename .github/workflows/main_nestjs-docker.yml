@@ -4,7 +4,7 @@
 name: Build and deploy Node.js app to Azure Web App - nestjs-docker
 
 on:
-  pull_request:
+  push:
     branches:
       - main
   workflow_dispatch:
