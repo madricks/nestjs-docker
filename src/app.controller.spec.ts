@@ -15,10 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('Testing merge request from local!"', () => {
-      expect(appController.getHello()).toBe(
-        'Testing merge request from local!',
-      );
+    it('Testing merge request to local!"', () => {
+      expect(appController.getHello()).toBe('Testing merge request to local!');
     });
   });
 });
